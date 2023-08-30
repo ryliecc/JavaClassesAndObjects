@@ -3,7 +3,7 @@ public class Vehicle {
     String model;
     int yearOfManufacture;
 
-    Vehicle(String manufacturer, String model, int yearOfManufacture){
+    Vehicle(String manufacturer, String model, int yearOfManufacture) {
         this.manufacturer = manufacturer;
         this.model = model;
         this.yearOfManufacture = yearOfManufacture;

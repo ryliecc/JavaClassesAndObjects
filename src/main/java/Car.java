@@ -1,4 +1,4 @@
-class Car extends Vehicle{
+class Car extends Vehicle {
     int numberOfDoors;
 
     Car(String manufacturer, String model, int yearOfManufacture, int numberOfDoors) {
@@ -16,3 +16,4 @@ class Car extends Vehicle{
                 '}';
     }
 }
+
