@@ -5,4 +5,14 @@ class Car extends Vehicle{
         super(manufacturer, model, yearOfManufacture);
         this.numberOfDoors = numberOfDoors;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                ", manufacturer='" + manufacturer + '\'' +
+                ", model='" + model + '\'' +
+                ", yearOfManufacture=" + yearOfManufacture +
+                "numberOfDoors=" + numberOfDoors +
+                '}';
+    }
 }
